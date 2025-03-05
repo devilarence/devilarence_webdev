@@ -309,9 +309,8 @@ p{
     line-height: 1.6;
 }
 
-/* Add these media queries at the end of your CSS file */
 
-/* For tablets and smaller screens (max-width: 1024px) */
+
 @media screen and (max-width: 1024px) {
     nav {
         padding: 1.5rem 2rem;
@@ -394,7 +393,7 @@ p{
     }
 }
 
-/* For small mobile devices (max-width: 480px) */
+
 @media screen and (max-width: 480px) {
     .hero-content h1 {
         font-size: 2rem;
@@ -414,7 +413,7 @@ p{
     }
 }
 
-/* Fix for the button hover effect */
+
 .contact-btn:before, .buy-services-btn:before, .hire-btn:before {
     width: 0;
 }
